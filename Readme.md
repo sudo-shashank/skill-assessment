@@ -35,9 +35,18 @@ npm install
 npm run dev
 ```
 
-### 3. Access the Application
+### 3. Go PDF Report Service Setup
+```bash
+cd go-service
+cp .env.example .env
+go mod tidy
+go run .
+```
+
+### 4. Access the Application
 - **Frontend**: http://localhost:5173
 - **Backend API**: http://localhost:5007
+- **Go PDF Service**: http://localhost:8080
 - **Demo Credentials**: 
   - Email: `admin@school-admin.com`
   - Password: `3OU4zn3q6Zh9`
